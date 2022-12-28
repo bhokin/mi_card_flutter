@@ -44,16 +44,12 @@ class MyApp extends StatelessWidget {
               Container(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-                padding: EdgeInsets.all(10),
-                child: Row(children: <Widget>[
-                  Icon(
+                child: ListTile(
+                  leading: Icon(
                     Icons.phone_android,
                     color: Colors.teal,
                   ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Text(
+                  title: Text(
                     '+66948848244',
                     style: TextStyle(
                       color: Colors.teal[900],
@@ -61,32 +57,26 @@ class MyApp extends StatelessWidget {
                       fontSize: 20,
                     ),
                   ),
-                ]),
+                ),
               ),
-              Container(
+              Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-                padding: EdgeInsets.all(10),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.email,
-                      color: Colors.teal,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    'bhokin.2002@gmail.com',
+                    style: TextStyle(
+                      color: Colors.teal[900],
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 20,
                     ),
-                    SizedBox(
-                      width: 20,
-                    ),
-                    Text(
-                      'bhokin.2002@gmail.com',
-                      style: TextStyle(
-                        color: Colors.teal[900],
-                        fontFamily: 'Source Sans Pro',
-                        fontSize: 20,
-                      ),
-                    )
-                  ],
+                  ),
                 ),
-              )
+              ),
             ],
           ),
         ),
