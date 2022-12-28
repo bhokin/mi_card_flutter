@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Text(
-                'Poro Gaming',
+                'Bhokin Watanapitak',
                 style: TextStyle(
                   fontFamily: 'Pacifico',
                   fontSize: 25,
@@ -31,6 +31,62 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              Text(
+                'FLUTTER DEVELOPER',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  fontSize: 20,
+                  letterSpacing: 2.5,
+                  color: Colors.teal.shade100,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                padding: EdgeInsets.all(10),
+                child: Row(children: <Widget>[
+                  Icon(
+                    Icons.phone_android,
+                    color: Colors.teal,
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Text(
+                    '+66948848244',
+                    style: TextStyle(
+                      color: Colors.teal[900],
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 20,
+                    ),
+                  ),
+                ]),
+              ),
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                padding: EdgeInsets.all(10),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.email,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Text(
+                      'bhokin.2002@gmail.com',
+                      style: TextStyle(
+                        color: Colors.teal[900],
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 20,
+                      ),
+                    )
+                  ],
+                ),
+              )
             ],
           ),
         ),
