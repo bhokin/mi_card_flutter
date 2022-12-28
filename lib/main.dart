@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
               Text(
                 'Poro Gaming',
                 style: TextStyle(
+                  fontFamily: 'Pacifico',
                   fontSize: 25,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
